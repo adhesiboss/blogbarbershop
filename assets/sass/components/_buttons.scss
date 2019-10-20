@@ -1,0 +1,27 @@
+.buttons__button {
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 10px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    background-color: #707070!important;
+}
+@media (min-width: 1200px){
+    .buttons{
+        justify-content: left!important;
+    }
+    .buttons__button {
+        font-family: 'Roboto', sans-serif;
+        color: #ffffff;
+        font-size: 16px;
+        border-radius: 10px;
+        padding: 15px;
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        background-color: #707070!important;
+    }
+}
